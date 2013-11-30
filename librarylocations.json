@@ -9,7 +9,8 @@
                 "type": "Point"
             },
             "properties": {
-                "name": "Sderot Shaul HaMelech 26, Tel Aviv Israel"
+                "address": "Sderot Shaul HaMelech 26, Tel Aviv Israel",
+                "name": "Bet Ariella"
             },
             "type": "Feature"
         },
@@ -22,7 +23,8 @@
                 "type": "Point"
             },
             "properties": {
-                "name": "Ludwigstra\u00dfe 16, Munich Germany"
+                "address": "Ludwigstra\u00dfe 16, Munich Germany",
+                "name": "Bayerische Staatsbibliothek"
             },
             "type": "Feature"
         },
@@ -35,7 +37,8 @@
                 "type": "Point"
             },
             "properties": {
-                "name": "Oude Turfmarkt 129, 1012 GC Amsterdam Netherlands"
+                "address": "Oude Turfmarkt 129, 1012 GC Amsterdam Netherlands",
+                "name": "Bibliotheca Rosenthaliana"
             },
             "type": "Feature"
         }
