@@ -41,6 +41,7 @@
 			    var geojson = L.geoJson(data, {
 			      onEachFeature: function (feature, layer) {
 			        layer.bindPopup(feature.properties.name);
+			        layer.bindPopup(feature.properties.address);
 			      }
 			    });
 			    map.fitBounds(geojson.getBounds());

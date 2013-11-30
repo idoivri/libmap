@@ -47,7 +47,7 @@ def bulk_gecode(addresses):
 def fetchInfoFromRecord(record):
 	res = {}
 
-	res["type"]="feature"
+	res["type"]="Feature"
 
 	properties = {}
 	geometry = {}
@@ -56,18 +56,18 @@ def fetchInfoFromRecord(record):
 	libAddress = record.find("datafield", tag="900").find("subfield", code="a").contents[0] #900 = address
 	libCountry = record.find("datafield", tag="902").find("subfield", code="a").contents[0] #902 = country
 
-	#print libName
-	#print libAddress + " " + libCountry
+	print libName
+	print libAddress + " " + libCountry
 
 	properties["name"]=libName
-	properties["name"]=libAddress + " " + libCountry
+	properties["address"]=libAddress + " " + libCountry
 
 	geocode = get_geocode(libAddress + " " + libCountry)
 
 	#print geocode["geometry"]["location"]
 
-	geometry["type"]="point"
-	geometry["coordinates"]=[geocode["geometry"]["location"]["lat"],geocode["geometry"]["location"]["lng"]]
+	geometry["type"]="Point"
+	geometry["coordinates"]=[geocode["geometry"]["location"]["lng"],geocode["geometry"]["location"]["lat"]]
 	
 
 	res["properties"]=properties

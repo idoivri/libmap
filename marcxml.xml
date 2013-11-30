@@ -8,6 +8,27 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.loc.gov/MARC21/slim
 http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
       <leader>     nz  a       n  4500</leader>
+      <controlfield tag="001">000004103</controlfield>
+      <controlfield tag="005">20131030133411.0</controlfield>
+      <controlfield tag="008">131030|abacn||aab||||||||||| ||aaa|||| d</controlfield>
+      <datafield tag="195" ind1=" " ind2=" ">
+        <subfield code="a">Bet Ariella</subfield>
+      </datafield>
+      <datafield tag="495" ind1=" " ind2=" ">
+        <subfield code="a">בית אריאלה</subfield>
+      </datafield>
+      <datafield tag="900" ind1=" " ind2=" ">
+        <subfield code="a">Sderot Shaul HaMelech 26, Tel Aviv</subfield>
+      </datafield>
+      <datafield tag="902" ind1=" " ind2=" ">
+        <subfield code="a">Israel</subfield>
+      </datafield>
+    </record>
+    <record xmlns="http://www.loc.gov/MARC21/slim"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.loc.gov/MARC21/slim
+http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+      <leader>     nz  a       n  4500</leader>
       <controlfield tag="001">000004104</controlfield>
       <controlfield tag="005">20131030133410.0</controlfield>
       <controlfield tag="008">131030|abacn||aab||||||||||| ||aaa|||| d</controlfield>
