@@ -10,7 +10,8 @@
             },
             "properties": {
                 "name": "Ludwigstra\u00dfe 16, Munich Germany"
-            }
+            },
+            "type": "feature"
         },
         {
             "geometry": {
@@ -22,7 +23,8 @@
             },
             "properties": {
                 "name": "Oude Turfmarkt 129, 1012 GC Amsterdam Netherlands"
-            }
+            },
+            "type": "feature"
         }
     ],
     "type": "FeatureCollection"

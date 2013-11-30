@@ -10,16 +10,14 @@
 		 <![endif]-->
 
 
-
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<style type="text/css">
 		  body {
 		  	#map { height: 180px; }
-
 		  }
 		  </style>
+
     </head>  
     <body>
         <h1>A simple map with some markers indicating library locations</h1>
@@ -37,8 +35,43 @@
 				maxZoom: 18
 			}).addTo(map);
 
-		</script>
 
+			var libraries = 
+
+			{
+			    "features": [
+			        {
+			            "geometry": {
+			                "coordinates": [
+			                    48.14761,
+			                    11.58082
+			                ],
+			                "type": "point"
+			            },
+			            "properties": {
+			                "name": "Ludwigstra\u00dfe 16, Munich Germany"
+			            }
+			        },
+			        {
+			            "geometry": {
+			                "coordinates": [
+			                    52.36845599999999,
+			                    4.8934336
+			                ],
+			                "type": "point"
+			            },
+			            "properties": {
+			                "name": "Oude Turfmarkt 129, 1012 GC Amsterdam Netherlands"
+			            }
+			        }
+			    ],
+			    "type": "FeatureCollection"
+			}
+
+			L.geoJson(libraries).addTo(map);
+
+
+		</script>
 
 
 

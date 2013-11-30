@@ -47,7 +47,7 @@ def bulk_gecode(addresses):
 def fetchInfoFromRecord(record):
 	res = {}
 
-	#res["type"]="feature"
+	res["type"]="feature"
 
 	properties = {}
 	geometry = {}
