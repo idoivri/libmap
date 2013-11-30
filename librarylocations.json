@@ -3,15 +3,28 @@
         {
             "geometry": {
                 "coordinates": [
+                    32.075547,
+                    34.7839512
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "name": "Sderot Shaul HaMelech 26, Tel Aviv Israel"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
                     48.14761,
                     11.58082
                 ],
-                "type": "point"
+                "type": "Point"
             },
             "properties": {
                 "name": "Ludwigstra\u00dfe 16, Munich Germany"
             },
-            "type": "feature"
+            "type": "Feature"
         },
         {
             "geometry": {
@@ -19,12 +32,12 @@
                     52.36845599999999,
                     4.8934336
                 ],
-                "type": "point"
+                "type": "Point"
             },
             "properties": {
                 "name": "Oude Turfmarkt 129, 1012 GC Amsterdam Netherlands"
             },
-            "type": "feature"
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
