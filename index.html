@@ -40,7 +40,7 @@
 			$.getJSON("./librarylocations.json", function(data) {
 			    var geojson = L.geoJson(data, {
 			      onEachFeature: function (feature, layer) {
-			        layer.bindPopup("<b>"+feature.properties.name+"</b><br>"+feature.properties.address);
+			        layer.bindPopup(feature.properties.name+"<br>"+feature.properties.address);
 			      }
 			    });
 			    map.fitBounds(geojson.getBounds());
