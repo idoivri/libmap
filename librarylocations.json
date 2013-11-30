@@ -1,0 +1,29 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    48.14761,
+                    11.58082
+                ],
+                "type": "point"
+            },
+            "properties": {
+                "name": "Ludwigstra\u00dfe 16, Munich Germany"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    52.36845599999999,
+                    4.8934336
+                ],
+                "type": "point"
+            },
+            "properties": {
+                "name": "Oude Turfmarkt 129, 1012 GC Amsterdam Netherlands"
+            }
+        }
+    ],
+    "type": "FeatureCollection"
+}
